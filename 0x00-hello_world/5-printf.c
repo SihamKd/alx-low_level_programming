@@ -2,6 +2,8 @@
 
 /**
  * main
+ *
+ *return end with value 0
  */
 int main(void)
 {
