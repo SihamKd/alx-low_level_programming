@@ -10,7 +10,7 @@
 
 int main(void)
 {
-char alphabet,e,q;
+char alphabet, e, q;
 e = 'e';
 q = 'q';
 
