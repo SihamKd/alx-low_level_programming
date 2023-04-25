@@ -12,7 +12,7 @@ char word[8] = "_putchar";
 int i;
 for (i = 0; i < 9; i++)
 {
-putchar(word);
+putchar(word[i]);
 }
 putchar('\n');
 return (0);
