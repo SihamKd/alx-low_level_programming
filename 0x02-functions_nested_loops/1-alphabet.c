@@ -12,7 +12,12 @@ char i;
 
 for (i = 'a'; i <= 'z'; i++)
 {
-_putchar(i);
+putchar(i);
 }
-_putchar('\n');
+putchar('\n');
+int main(void)
+{
+print_alphabet();
+return (0);
+}
 }
