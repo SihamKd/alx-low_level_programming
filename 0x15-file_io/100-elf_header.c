@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <elf.h>
+#include <string.h>
+#include <errno.h>
 /**
 * main - The entry point for program to get header of ELF file
 * @argc: The number of arguments
